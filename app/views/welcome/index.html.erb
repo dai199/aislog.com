@@ -1,0 +1,54 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">AIS-LOG</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">楽曲一覧</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" sytle="background-color: #eee;">
+      メニュー
+    </div>
+    <div class="col-md-8">
+      <div class="official-movie">
+        <h3>公式動画</h3>
+        <%= @m.name %>
+        <% if @m.content %>
+          <img src="http://i.ytimg.com/vi/irsEhYKgGM8/maxresdefault.jpg" width="400px">
+        <% else %>
+        <p>
+          <%= link_to 'Youtubeで見る', 'https://www.youtube.com/results?search_query=m.name' %>
+        </p>
+        <% end %>
+      </div>
+      <div class="ais-movies">
+        <h3>AIS動画</h3>
+        <ul>
+          <% @m.ais_lists.each do |a| %>
+            <li>
+              <h4><%= a.title %></h4>
+              <img src="http://i.ytimg.com/vi/<%= a.content %>/maxresdefault.jpg" width="400px">
+              <p>公開日時: 2018-06-20</p>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

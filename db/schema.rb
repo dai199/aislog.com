@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_19_152114) do
+ActiveRecord::Schema.define(version: 2018_06_22_132609) do
 
   create_table "ais_lists", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "music_list_id"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2018_06_19_152114) do
     t.string "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "artist", default: ""
   end
 
 end

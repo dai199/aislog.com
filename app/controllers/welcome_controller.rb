@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @m = MusicList.first
+    redirect_to music_lists_path
   end
 end

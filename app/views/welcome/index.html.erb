@@ -29,7 +29,7 @@
       <div class="official-movie">
         <h3>公式動画</h3>
         <%= @m.name %>
-        <% if @m.content %>
+        <% if @m.content.present? %>
           <img src="http://i.ytimg.com/vi/irsEhYKgGM8/maxresdefault.jpg" width="400px">
         <% else %>
         <p>

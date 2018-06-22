@@ -1,1 +1,1 @@
-kofuku = MusicList.find_or_create(name: '無条件☆幸福')
+kofuku = MusicList.find_or_create_by(name: '無条件☆幸福')

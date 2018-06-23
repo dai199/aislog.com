@@ -39,3 +39,4 @@ konote = MusicList.find_or_create_by(name: 'この手につかんだ未来地図
 panpina = MusicList.find_or_create_by(name: 'パンピナッ!', artist: 'Prizmmy☆')
 ame = MusicList.find_or_create_by(name: '雨', artist: '森高千里')
 summerlion = MusicList.find_or_create_by(name: 'サマーライオン', artist: 'アイドリング!!!') # 2018年6月23日初公開
+kesshin = MusicList.find_or_create_by(name: '夏の決心', artist: '大江千里, アイドルネッサンス') # 2018年6月23日初公開

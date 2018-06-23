@@ -38,3 +38,4 @@ jinjin = MusicList.find_or_create_by(name: 'ジン ジン ジングルベル', a
 konote = MusicList.find_or_create_by(name: 'この手につかんだ未来地図', artist: 'BON=BON BLANCO')
 panpina = MusicList.find_or_create_by(name: 'パンピナッ!', artist: 'Prizmmy☆')
 ame = MusicList.find_or_create_by(name: '雨', artist: '森高千里')
+summerlion = MusicList.find_or_create_by(name: 'サマーライオン', artist: 'アイドリング!!!') # 2018年6月23日初公開

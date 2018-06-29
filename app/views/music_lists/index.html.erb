@@ -3,7 +3,11 @@
     <div class="col-md-12">
       <ul>
         <% @music_lists.each do |m| %>
-          <li><%= m.name %> - <%= m.artist %></li>
+          <li>
+            <%= link_to music_list_path(m) do %>
+              <%= m.name %> - <%= m.artist %>
+            <% end %>
+          </li>
         <% end %>
       </ul>
     </div>

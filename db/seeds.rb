@@ -40,3 +40,5 @@ panpina = MusicList.find_or_create_by(name: 'パンピナッ!', artist: 'Prizmmy
 ame = MusicList.find_or_create_by(name: '雨', artist: '森高千里')
 summerlion = MusicList.find_or_create_by(name: 'サマーライオン', artist: 'アイドリング!!!') # 2018年6月23日初公開
 kesshin = MusicList.find_or_create_by(name: '夏の決心', artist: '大江千里, アイドルネッサンス') # 2018年6月23日初公開
+
+y = Youtube.find_or_create_by(title: 'アイドリング!!!カバー【「無条件☆幸福」6.11ライブ映像（初披露）】AIS（アイス）', video_id: 'C7kez0172IU', published_at: Time.zone.parse('2016-06-27T11:00:00.000Z'), duration: 'PT4M41S')

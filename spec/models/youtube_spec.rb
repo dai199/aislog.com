@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe AisList, type: :model do
+RSpec.describe Youtube, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
 end

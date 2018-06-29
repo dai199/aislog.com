@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_22_132609) do
+ActiveRecord::Schema.define(version: 2018_06_29_123522) do
 
-  create_table "ais_lists", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "music_list_youtubes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "music_list_id"
-    t.string "title"
-    t.string "content"
+    t.bigint "youtube_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["music_list_id"], name: "index_ais_lists_on_music_list_id"
+    t.index ["music_list_id"], name: "index_music_list_youtubes_on_music_list_id"
+    t.index ["youtube_id"], name: "index_music_list_youtubes_on_youtube_id"
   end
 
   create_table "music_lists", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -29,4 +29,15 @@ ActiveRecord::Schema.define(version: 2018_06_22_132609) do
     t.string "artist", default: ""
   end
 
+  create_table "youtubes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "title"
+    t.string "video_id"
+    t.datetime "published_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "duration"
+  end
+
+  add_foreign_key "music_list_youtubes", "music_lists"
+  add_foreign_key "music_list_youtubes", "youtubes"
 end

@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul>
+        <li><%= @music.name %> - <%= @music.artist %></li>
+      </ul>
+    </div>
+    <div class="col-md-12 videos">
+      <h3>AIS動画</h3>
+      <ul>
+      <% @music.youtubes.each do |y| %>
+        <li class="clearfix">
+          <%= link_to "https://www.youtube.com/watch?v=#{y.video_id}" do %>
+            <div class="image pull-left">
+              <img src="http://i.ytimg.com/vi/<%= y.video_id %>/maxresdefault.jpg" alt="">
+            </div>
+            <div class="description pull-left">
+              <%= y.title %>
+              <%= y.playtime %>
+              <%= y.published_at %>
+            </div>
+          <% end %>
+        </li>
+      <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

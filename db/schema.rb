@@ -10,7 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_29_123522) do
+ActiveRecord::Schema.define(version: 2018_07_02_130834) do
+
+  create_table "media", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "content_type"
+    t.datetime "published_at"
+    t.datetime "created_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
+    t.datetime "updated_at", default: -> { "CURRENT_TIMESTAMP" }, null: false
+  end
+
+  create_table "medium_tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "medium_id"
+    t.bigint "tag_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["medium_id"], name: "index_medium_tags_on_medium_id"
+    t.index ["tag_id"], name: "index_medium_tags_on_tag_id"
+  end
 
   create_table "music_list_youtubes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "music_list_id"
@@ -29,6 +45,12 @@ ActiveRecord::Schema.define(version: 2018_06_29_123522) do
     t.string "artist", default: ""
   end
 
+  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "youtubes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title"
     t.string "video_id"
@@ -36,8 +58,12 @@ ActiveRecord::Schema.define(version: 2018_06_29_123522) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "duration"
+    t.integer "medium_id"
+    t.index ["medium_id"], name: "index_youtubes_on_medium_id"
   end
 
+  add_foreign_key "medium_tags", "media"
+  add_foreign_key "medium_tags", "tags"
   add_foreign_key "music_list_youtubes", "music_lists"
   add_foreign_key "music_list_youtubes", "youtubes"
 end

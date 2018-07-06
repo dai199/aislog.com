@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: 'welcome#index'
   resources :music_lists, only: [:index, :show]
   resources :tags, only: [:show], param: :name
+  resources :lives, only: [:index, :show]
 end

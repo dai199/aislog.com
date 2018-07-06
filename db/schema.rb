@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_02_130834) do
+ActiveRecord::Schema.define(version: 2018_07_06_130141) do
+
+  create_table "lives", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.datetime "held_at"
+    t.string "title"
+    t.string "place"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "media", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "content_type"
@@ -45,6 +54,25 @@ ActiveRecord::Schema.define(version: 2018_07_02_130834) do
     t.string "artist", default: ""
   end
 
+  create_table "setlist_details", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "setlist_id"
+    t.bigint "music_list_id"
+    t.integer "music_order"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["music_list_id"], name: "index_setlist_details_on_music_list_id"
+    t.index ["setlist_id"], name: "index_setlist_details_on_setlist_id"
+  end
+
+  create_table "setlists", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "live_id"
+    t.text "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["live_id"], name: "index_setlists_on_live_id"
+  end
+
   create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
@@ -66,4 +94,7 @@ ActiveRecord::Schema.define(version: 2018_07_02_130834) do
   add_foreign_key "medium_tags", "tags"
   add_foreign_key "music_list_youtubes", "music_lists"
   add_foreign_key "music_list_youtubes", "youtubes"
+  add_foreign_key "setlist_details", "music_lists"
+  add_foreign_key "setlist_details", "setlists"
+  add_foreign_key "setlists", "lives", column: "live_id"
 end

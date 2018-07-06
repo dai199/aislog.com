@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul>
+        <% @lives.each do |l| %>
+          <li>
+            <%= l.held_at %> / <%= l.title %> / <%= l.place %> / <%= l.description %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

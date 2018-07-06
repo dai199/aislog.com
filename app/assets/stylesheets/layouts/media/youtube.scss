@@ -1,0 +1,37 @@
+.youtube {
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  .image {
+    width: 30%;
+    img {
+      width: 300px;
+    }
+  }
+
+  .description {
+    width: 70%;
+    font-size: 1.6rem;
+  }
+
+  .tags {
+    margin-top: 1rem;
+
+    span {
+      display: inline-block;
+      padding: 6px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 1.4rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

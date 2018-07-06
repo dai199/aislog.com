@@ -1,0 +1,19 @@
+<li class="clearfix youtube">
+  <%= link_to "https://www.youtube.com/watch?v=#{y.video_id}" do %>
+    <div class="image pull-left">
+      <img src="http://i.ytimg.com/vi/<%= y.video_id %>/maxresdefault.jpg" alt="">
+    </div>
+    <div class="description pull-left">
+      <%= y.title %>
+      <%= y.playtime %>
+      <%= y.published_at %>
+      <div class="tags">
+        <% y&.medium&.tags.each do |t| %>
+          <%= link_to tag_path(t) do %>
+            <span><%= t.name %></span>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</li>

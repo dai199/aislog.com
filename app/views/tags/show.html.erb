@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 media">
+      <h3>Tag: <%= @tag.name %></h3>
+      <ul>
+      <% @media.each do |m| %>
+        <% case %>
+        <% when m.youtube? %>
+          <%= render 'layouts/media/youtube', y: m.youtube %>
+        <% end %>
+      <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

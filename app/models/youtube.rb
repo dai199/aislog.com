@@ -3,7 +3,7 @@ class Youtube < ApplicationRecord
   has_many :music_lists, through: :music_list_youtubes
   belongs_to :medium
 
-  before_create :create_medium
+  before_validation :create_medium
 
   def create_medium
     self.medium = self.medium.present? ? self.medium : ::Medium.new

@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   end
   resources :music_lists, only: [:index, :show]
   resources :tags, only: [:show], param: :name
-  resources :lives, only: [:index, :show]
+  resources :setlists, only: [:index, :show]
 end

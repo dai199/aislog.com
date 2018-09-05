@@ -1,0 +1,21 @@
+<div class="col-md-12">
+  <h2>ライブ</h2>
+  <p><%= @setlist.title %></p>
+</div>
+
+<div class="col-md-12">
+  <ul>
+    <% @setlist.setlist_details.each do |sd| %>
+      <li>
+        <div class="title">
+          <%= format("%02d", sd.music_order) %> <%= sd.title %>
+        </div>
+        <% if sd.description.present? %>
+          <div class="description">
+            <%= sd.description %>
+          </div>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>

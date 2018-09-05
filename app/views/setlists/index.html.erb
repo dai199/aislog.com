@@ -1,0 +1,20 @@
+<div class="col-md-12">
+  <h2>ライブ</h2>
+</div>
+
+<div class="col-md-12">
+  <ul>
+    <% @setlists.each do |s| %>
+      <li>
+        <%= link_to setlist_path(s) do %>
+          <div class="date">
+            <%= s.date.strftime("%Y/%m/%d") %>
+          </div>
+          <div class="title">
+            <%= s.title %>
+          </div>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</div>

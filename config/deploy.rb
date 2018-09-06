@@ -87,7 +87,14 @@ namespace :deploy do
     end
   end
 
+  task :apply_seedfu do
+    on primary :db do
+      invoke 'seed_fu:apply'
+    end
+  end
+
   before :starting,     :check_revision
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
+  after 'deploy:migrating', 'deploy:apply_seedfu'
 end

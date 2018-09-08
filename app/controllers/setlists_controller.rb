@@ -2,7 +2,7 @@ class SetlistsController < ApplicationController
   before_action :set_setlist, only: [:show]
 
   def index
-    @setlists = Setlist.all.order('date desc')
+    @setlists = Setlist.all.group_by{|s| s.event_date.to_date}
   end
 
   def show

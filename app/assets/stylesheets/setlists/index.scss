@@ -1,0 +1,12 @@
+.setlists.index {
+  .date {
+    border-bottom: 1px solid #ccc;
+  }
+  .title {
+    border-bottom: 1px dashed #eee;
+
+    &:hover {
+      background-color: #EEE;
+    }
+  }
+}

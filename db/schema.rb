@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_04_174423) do
+ActiveRecord::Schema.define(version: 2018_09_08_122710) do
 
   create_table "lives", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.datetime "held_at"
@@ -71,7 +71,7 @@ ActiveRecord::Schema.define(version: 2018_09_04_174423) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "title"
-    t.datetime "date"
+    t.datetime "event_date"
     t.string "place"
   end
 

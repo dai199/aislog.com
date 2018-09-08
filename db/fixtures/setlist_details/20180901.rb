@@ -94,5 +94,5 @@ SetlistDetail.seed(:id,
     title: "GO MY WAY!!",
     music_order: 6,
     description: ""
-  },
+  }
 )

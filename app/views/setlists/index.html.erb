@@ -1,20 +1,20 @@
 <div class="col-md-12">
-  <h2>ライブ</h2>
+  <h2 class="py-3">ライブ</h2>
 </div>
 
 <div class="col-md-12">
-  <ul>
-    <% @setlists.each do |s| %>
-      <li>
-        <%= link_to setlist_path(s) do %>
-          <div class="date">
-            <%= s.date.strftime("%Y/%m/%d") %>
-          </div>
-          <div class="title">
-            <%= s.title %>
+  <% @setlists.each do |date, s| %>
+    <div class="setlist">
+      <div class="date pt-3">
+        <%= date.strftime("%Y/%m/%d") %>
+      </div>
+      <% s.each do |setlist| %>
+        <%= link_to setlist_path(setlist) do %>
+          <div class="title pl-3 py-2">
+            <%= setlist.title %> @<%= setlist.place %> / OPEN: <%= setlist.event_date.strftime("%H:%M") %>
           </div>
         <% end %>
-      </li>
-    <% end %>
-  </ul>
+      <% end %>
+    </div>
+  <% end %>
 </div>

@@ -223,13 +223,125 @@ Setlist.seed(:id,
     place: "上野恩賜公園野外ステージ",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 33,
+    title: "東京アイドル劇場アドバンス",
+    event_date: Time.zone.parse('2018-04-22 13:50'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 34,
+    title: "レコチョク presents BLITZの天使かよ！ supported by WIZY",
+    event_date: Time.zone.parse('2018-04-21 13:00'),
+    place: "マイナビBLITZ赤坂",
+    description: ""
+  },
+  {
+    id: 35,
+    title: "AIS-Carnival（アイスカーニバル）vol.1",
+    event_date: Time.zone.parse('2018-04-14 17:30'),
+    place: "白金高輪SELENE b2",
+    description: ""
+  },
+  {
+    id: 36,
+    title: "私たち、正統派。Vol.26 ～渋谷TAKE OFF7 スペシャル～",
+    event_date: Time.zone.parse('2018-04-08 11:00'),
+    place: "渋谷TAKE OFF7",
+    description: ""
+  },
+  {
+    id: 37,
+    title: "AIS-Cake（アイスケーキ）特別編 〜なんてったってアイドルをマスター！〜",
+    event_date: Time.zone.parse('2018-04-07 12:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 38,
+    title: "KKBOX presents 俺たち、楽曲派。Vol.27",
+    event_date: Time.zone.parse('2018-04-06 17:00'),
+    place: "渋谷クラブクアトロ ",
+    description: ""
+  },
+  {
+    id: 39,
+    title: "俺たち、パフォ厨。Vol.3",
+    event_date: Time.zone.parse('2018-03-31 12:00'),
+    place: "渋谷SPACE ODD",
+    description: ""
+  },
+  {
+    id: 40,
+    title: "AIS-Snack（アイスナック） 特別編～500円で、こいしょ!!!～",
+    event_date: Time.zone.parse('2018-03-24 14:00'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 41,
+    title: "AIS-Scream（アイスクリーム）特別公演 〜あざやかな未来へ〜",
+    event_date: Time.zone.parse('2018-03-24 17:00'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 42,
+    title: "なんてったってハロプロライブ vol.21",
+    event_date: Time.zone.parse('2018-03-20 19:00'),
+    place: "TwinBox GARAGE",
+    description: ""
+  },
+  {
+    id: 43,
+    title: "DDD~Discovery iDol Depot~",
+    event_date: Time.zone.parse('2018-03-17 11:20'),
+    place: "白金高輪SELENE b2",
+    description: ""
+  },
+  {
+    id: 44,
+    title: "IDOL Pop'n Party Vol.36",
+    event_date: Time.zone.parse('2018-03-11 11:30'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 45,
+    title: "2マン公演AIS-Friend（アイスフレンド）vol.2 〜with amiinAさん〜",
+    event_date: Time.zone.parse('2018-03-10 18:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 46,
+    title: "俺たち、パフォ厨。Vol.2",
+    event_date: Time.zone.parse('2018-02-25 12:00'),
+    place: "渋谷SPACE ODD",
+    description: ""
+  },
+  {
+    id: 47,
+    title: "IDOL Pop’n Party Vol.35",
+    event_date: Time.zone.parse('2018-02-25 17:05'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 48,
+    title: "私たち、正統派。Vol.22～フジさんのヨコスペシャル～",
+    event_date: Time.zone.parse('2018-02-17 12:00'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 49,
+    title: "ミニ公演AIS-Snack（アイスナック）vol.2 〜バレンタイン魂〜",
+    event_date: Time.zone.parse('2018-02-17 17:00'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

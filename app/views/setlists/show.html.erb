@@ -8,7 +8,10 @@
     <% @setlist.setlist_details.each do |sd| %>
       <li>
         <div class="title">
-          <%= format("%02d", sd.music_order) %> <%= sd.title %>
+          <% if sd.music_order.present? %>
+            <%= format("%02d", sd.music_order) %> 
+          <% end %>
+          <%= sd.title %>
         </div>
         <% if sd.description.present? %>
           <div class="description">

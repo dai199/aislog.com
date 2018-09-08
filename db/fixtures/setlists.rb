@@ -342,6 +342,83 @@ Setlist.seed(:id,
     place: "フジさんのヨコ",
     description: ""
   },
+  {
+    id: 50,
+    title: "ミニ公演AIS-Snack（アイスナック）vol.1 〜ノンストップで行ってみましょ♪〜",
+    event_date: Time.zone.parse('2018-01-28 12:30'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 51,
+    title: "私たち、正統派。Vol.19　～フジさんのヨコスペシャル～",
+    event_date: Time.zone.parse('2018-01-28 16:00'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 52,
+    title: "大好きな君に会いにいく〜TOKYO FM HALL編〜",
+    event_date: Time.zone.parse('2018-01-14 11:00'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 53,
+    title: "AIS-Friend（アイスフレンド）vol.1〜with〜ハコイリ♡ムスメ",
+    event_date: Time.zone.parse('2018-01-13 18:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 54,
+    title: "アイドル横丁大忘年会!!～2017円SP!!～",
+    event_date: Time.zone.parse('2017-12-30 12:20'),
+    place: "ZeppTokyo",
+    description: ""
+  },
+  {
+    id: 55,
+    title: "DDD 2017 iDol Summary",
+    event_date: Time.zone.parse('2017-12-30 15:55'),
+    place: "白金高輪SELENE b2",
+    description: ""
+  },
+  {
+    id: 56,
+    title: "IDOL Pop’n Party vol.31",
+    event_date: Time.zone.parse('2017-12-28 14:00'),
+    place: "渋谷SPACE ODD",
+    description: ""
+  },
+  {
+    id: 57,
+    title: "AIS-Cake（アイスケーキ）vol.11 〜マジ グッドチャンス クリスマス〜",
+    event_date: Time.zone.parse('2017-12-25 18:30'),
+    place: "J-SQUARE SHINAGAWA",
+    description: ""
+  },
+  {
+    id: 58,
+    title: "DDD~Discovery iDol Xmas~",
+    event_date: Time.zone.parse('2017-12-24 11:30'),
+    place: "白金高輪SELENE b2",
+    description: ""
+  },
+  {
+    id: 59,
+    title: "ライブハウス・R-1_U18スペシャル",
+    event_date: Time.zone.parse('2017-12-23 17:05'),
+    place: "NHK放送センター509",
+    description: ""
+  },
+  {
+    id: 60,
+    title: "クリスマスツリーの日に品川かよ！",
+    event_date: Time.zone.parse('2017-12-07 19:40'),
+    place: "J-SQUARE SHINAGAWA",
+    description: "朝熊萌、島崎友莉亜、徳久陽日、磯前星来の4名で出演"
+  },
   # {
   #   id: ,
   #   title: "",

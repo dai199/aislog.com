@@ -1,22 +1,33 @@
 <div class="col-md-12">
-  <h2 class="py-3">ライブ</h2>
-  <p><%= @setlist.title %></p>
+  <div class="top py-3">
+    <h2 class="pb-3">ライブ</h2>
+    <h4><%= @setlist.title %> @<%= @setlist.place %></h4>
+    <% if @setlist.description.present? %>
+      <div class="description py-2"><%= @setlist.description %></div>
+    <% end %>
+    <div class="date"><%= @setlist.event_date.strftime("%Y/%m/%d %H:%M") %></div>
+  </div>
 </div>
 
-<div class="col-md-12">
+<div class="col-md-12 pt-3 setlist">
   <ul>
     <% @setlist.setlist_details.each do |sd| %>
-      <li>
+      <li class="mb-3 pb-3">
         <div class="title">
           <% if sd.music_order.present? %>
-            <%= format("%02d", sd.music_order) %> 
+            <span><%= format("%02d", sd.music_order) %></span>
           <% end %>
           <%= sd.title %>
         </div>
         <% if sd.description.present? %>
-          <div class="description">
+          <div class="description pl-2">
             <%= sd.description %>
           </div>
+        <% end %>
+
+        <% # Youtubeリンクを個別に貼る用
+         link_to root_path, class: 'btn btn-danger my-2', target: '_blank' do %>
+          <%= fa_icon "youtube", type: :fab %> Youtube
         <% end %>
       </li>
     <% end %>

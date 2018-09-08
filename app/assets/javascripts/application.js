@@ -14,4 +14,5 @@
 //= require activestorage
 //= require jquery3
 //= require bootstrap-sprockets
+//= require font_awesome5
 //= require_tree .

@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem 'sprockets', '~> 3.7.2'
 gem 'devise'
 gem 'mini_racer'
+gem "font_awesome5_rails"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

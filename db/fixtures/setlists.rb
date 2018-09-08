@@ -419,6 +419,27 @@ Setlist.seed(:id,
     place: "J-SQUARE SHINAGAWA",
     description: "朝熊萌、島崎友莉亜、徳久陽日、磯前星来の4名で出演"
   },
+  {
+    id: 61,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.22 〜目指せ256人！絶対あきらめない千秋楽〜",
+    event_date: Time.zone.parse('2017-12-09 18:00'),
+    place: "  AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 62,
+    title: "ミュージックパーク 〜Girls ＆ Music Theater Vol.8〜",
+    event_date: Time.zone.parse('2017-12-03 13:00'),
+    place: "山野ホール",
+    description: ""
+  },
+  {
+    id: 63,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.21 〜12月2日がクリスマスでもいいと思う マル♪〜",
+    event_date: Time.zone.parse('2017-12-02 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

@@ -440,6 +440,97 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
+  {
+    id: 64,
+    title: "定期公演 AIS-Scream vol.20 ～トミタ栞さんと学ぼう！70分でわかるAIS集中講座～",
+    event_date: Time.zone.parse('2017-11-18 18:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 65,
+    title: "ゲキモリdeパーリナイ vol.4",
+    event_date: Time.zone.parse('2017-11-12 11:30'),
+    place: "渋谷SPACE ODD",
+    description: ""
+  },
+  {
+    id: 66,
+    title: "Happiness Star Live",
+    event_date: Time.zone.parse('2017-11-05 16:45'),
+    place: "新宿RUIDO.K4",
+    description: ""
+  },
+  {
+    id: 67,
+    title: "第6回アイ文研アイドルライブ 〜What’s IDOL Song？〜",
+    event_date: Time.zone.parse('2017-11-04 11:10'),
+    place: "法政大学市ヶ谷キャンパス キャンパス中央広場特設ステージ",
+    description: ""
+  },
+  {
+    id: 68,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.19 〜橋本麗愛プロデュース公演「目指せ！アイドルマスター！」〜",
+    event_date: Time.zone.parse('2017-11-03 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 69,
+    title: "TOMITAIBAN vol.3〜もしもトミタ栞がアイドルだったら〜",
+    event_date: Time.zone.parse('2017-10-15 16:30'),
+    place: "TSUTAYA O-WEST",
+    description: ""
+  },
+  {
+    id: 70,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.18 〜ハロウィンは小悪魔になっちゃうゾ♡〜",
+    event_date: Time.zone.parse('2017-10-14 18:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 71,
+    title: "ミュージックパーク 〜Acoustic Theater〜Vol.5",
+    event_date: Time.zone.parse('2017-10-09 12:30'),
+    place: "座・高円寺",
+    description: ""
+  },
+  {
+    id: 72,
+    title: "ミュージックパーク 〜Acoustic Theater〜Vol.6",
+    event_date: Time.zone.parse('2017-10-09 16:30'),
+    place: "座・高円寺",
+    description: ""
+  },
+  {
+    id: 73,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.17〜ALL リクエスト SONGS〜",
+    event_date: Time.zone.parse('2017-10-01 18:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

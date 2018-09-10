@@ -510,13 +510,13 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 74,
+    title: "KOTO生誕祭",
+    event_date: Time.zone.parse('2017-09-24 15:55'),
+    place: "渋谷Glad",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

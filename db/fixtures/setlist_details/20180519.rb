@@ -32,7 +32,7 @@ SetlistDetail.seed(:id,
     description: ""
   },
   {
-    id: 195,
+    id: 607,
     setlist_id: 28,
     music_list_id: 9,
     title: "スイミング",

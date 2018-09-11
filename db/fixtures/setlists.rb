@@ -538,6 +538,69 @@ Setlist.seed(:id,
     place: "白金高輪SELENE b2",
     description: ""
   },
+  {
+    id: 78,
+    title: "アイドル甲子園 SUMMER FESTIVAL2017",
+    event_date: Time.zone.parse('2017-09-10 10:30'),
+    place: "STUDIO COAST",
+    description: ""
+  },
+  {
+    id: 79,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.16 〜つなぎつながり〜",
+    event_date: Time.zone.parse('2017-09-09 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 80,
+    title: "@JAM EXPO 2017",
+    event_date: Time.zone.parse('2017-08-27 10:00'),
+    place: "グレープステージ",
+    description: ""
+  },
+  {
+    id: 81,
+    title: "@JAM EXPO 2017",
+    event_date: Time.zone.parse('2017-08-27 16:10'),
+    place: "オレンジステージ",
+    description: ""
+  },
+  {
+    id: 82,
+    title: "@JAM EXPO 2017",
+    event_date: Time.zone.parse('2017-08-26 16:40'),
+    place: "ピーチステージ",
+    description: ""
+  },
+  {
+    id: 83,
+    title: "KOTOニューシングル「ことらべりんぐ」リリースパーティ",
+    event_date: Time.zone.parse('2017-08-22 19:00'),
+    place: "渋谷WWW",
+    description: ""
+  },
+  {
+    id: 84,
+    title: "AIS-Scream 特別公演 ～ALL STANDING SHE SAID～ ",
+    event_date: Time.zone.parse('2017-08-14 18:30'),
+    place: "渋谷TAKE OFF7 ",
+    description: ""
+  },
+  {
+    id: 85,
+    title: "私たち、正統派。Vol.6  ～TAKE OFF7で番外編〜",
+    event_date: Time.zone.parse('2017-08-14 12:00'),
+    place: "渋谷TAKE OFF7",
+    description: ""
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

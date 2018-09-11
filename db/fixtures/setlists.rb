@@ -517,6 +517,41 @@ Setlist.seed(:id,
     place: "渋谷Glad",
     description: ""
   },
+  {
+    id: 75,
+    title: "ぷちぱすぽ☆の妹煮会vol.1",
+    event_date: Time.zone.parse('2017-09-23 13:30'),
+    place: "代官山LOOP",
+    description: ""
+  },
+  {
+    id: 76,
+    title: "AKIBA Cultures Kaleidoscope vol.7",
+    event_date: Time.zone.parse('2017-09-18 12:30'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 77,
+    title: "DDD~Discovery iDol Depot~ 1st ANNIVERSARY",
+    event_date: Time.zone.parse('2017-09-17 11:30'),
+    place: "白金高輪SELENE b2",
+    description: ""
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

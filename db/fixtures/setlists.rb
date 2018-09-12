@@ -594,6 +594,132 @@ Setlist.seed(:id,
     place: "渋谷TAKE OFF7",
     description: ""
   },
+  {
+    id: 86,
+    title: "TOKYO IDOL FESTIVAL 2017",
+    event_date: Time.zone.parse('2017-08-05 13:35'),
+    place: "FESTIVAL STAGE",
+    description: ""
+  },
+  {
+    id: 87,
+    title: "TOKYO IDOL FESTIVAL 2017",
+    event_date: Time.zone.parse('2017-08-05 18:10'),
+    place: "SKY STAGE",
+    description: ""
+  },
+  {
+    id: 88,
+    title: "TOKYO IDOL FESTIVAL 2017",
+    event_date: Time.zone.parse('2017-08-04 10:55'),
+    place: "SMILE GARDEN",
+    description: ""
+  },
+  {
+    id: 89,
+    title: "TOKYO IDOL FESTIVAL 2017",
+    event_date: Time.zone.parse('2017-08-04 13:45'),
+    place: "DOLL FACTORY",
+    description: ""
+  },
+  {
+    id: 90,
+    title: "初恋かよ! vol.7",
+    event_date: Time.zone.parse('2017-07-30 17:30'),
+    place: "渋谷TAKE OFF7 ",
+    description: ""
+  },
+  {
+    id: 91,
+    title: "初恋かよ! vol.7(データ求む)",
+    event_date: Time.zone.parse('2017-07-23 17:30'),
+    place: "ヤマハ銀座スタジオ",
+    description: ""
+  },
+  {
+    id: 92,
+    title: "私たち、正統派。Vol.5 ～REXで番外編～",
+    event_date: Time.zone.parse('2017-07-17 11:00'),
+    place: "渋谷REX",
+    description: ""
+  },
+  {
+    id: 93,
+    title: "IDOL Pop'n Party Vol.20",
+    event_date: Time.zone.parse('2017-07-15 11:30'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 94,
+    title: "アイドル横丁夏まつり!!〜2017〜",
+    event_date: Time.zone.parse('2017-07-09 11:00'),
+    place: "5番地",
+    description: ""
+  },
+  {
+    id: 95,
+    title: "アイドル横丁夏まつり!!〜2017〜",
+    event_date: Time.zone.parse('2017-07-09 13:35'),
+    place: "2番地",
+    description: ""
+  },
+  {
+    id: 96,
+    title: "アイドル横丁夏まつり!!〜2017〜",
+    event_date: Time.zone.parse('2017-07-08 11:10'),
+    place: "3番地",
+    description: ""
+  },
+  {
+    id: 97,
+    title: "アイドル横丁夏まつり!!〜2017〜",
+    event_date: Time.zone.parse('2017-07-08 12:40'),
+    place: "1番地",
+    description: ""
+  },
+  {
+    id: 98,
+    title: "AIS-Scream特別公演〜2017年7月7日7時7分7人7曲〜",
+    event_date: Time.zone.parse('2017-07-07 19:07'),
+    place: "品川Jスクエア",
+    description: ""
+  },
+  {
+    id: 99,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.15 〜約束の場所〜",
+    event_date: Time.zone.parse('2017-06-30 18:30'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 100,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.14 〜キミのために、ボクのために〜",
+    event_date: Time.zone.parse('2017-06-23 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 101,
+    title: "GO! GO! Sisters!!(データ求む)",
+    event_date: Time.zone.parse('2017-06-18 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 102,
+    title: "定期公演 AIS-Break（アイスブレイク）vol.6 〜フルポケさんいらっしゃい！〜",
+    event_date: Time.zone.parse('2017-06-16 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: "出演メンバー：関澤朋花、朝熊 萌、島崎友莉亜、徳久陽日、磯前星来"
+  },
+  {
+    id: 103,
+    title: "ラジオ日本『パンダみっくラジオSP』公開収録",
+    event_date: Time.zone.parse('2017-06-10 12:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

@@ -64,7 +64,7 @@ SetlistDetail.seed(:id,
   {
     id: 744,
     setlist_id: 98,
-    music_list_id: ,
+    music_list_id: 1,
     title: "無条件☆幸福",
     music_order: 9,
     description: ""

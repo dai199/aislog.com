@@ -720,13 +720,13 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 104,
+    title: "AIS-Scream vol.13 ～お披露目1周年!届けたい思い～",
+    event_date: Time.zone.parse('2017-06-09 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

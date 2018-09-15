@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_09_143623) do
+ActiveRecord::Schema.define(version: 2018_09_15_143002) do
 
   create_table "lives", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.datetime "held_at"
@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 2018_09_09_143623) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "title"
+    t.string "youtube"
     t.index ["music_list_id"], name: "index_setlist_details_on_music_list_id"
     t.index ["setlist_id"], name: "index_setlist_details_on_setlist_id"
   end

@@ -25,9 +25,10 @@
           </div>
         <% end %>
 
-        <% # Youtubeリンクを個別に貼る用
-         link_to root_path, class: 'btn btn-danger my-2', target: '_blank' do %>
-          <%= fa_icon "youtube", type: :fab %> Youtube
+        <% if sd.youtube.present? %>
+          <%= link_to "https://www.youtube.com/watch?v=#{sd.youtube}", class: 'btn btn-danger my-2', target: '_blank' do %>
+            <%= fa_icon "youtube", type: :fab %> Youtube
+          <% end %>
         <% end %>
       </li>
     <% end %>

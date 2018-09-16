@@ -73,6 +73,7 @@ SetlistDetail.seed do |sd|
   sd.title = "雨"
   sd.music_order = 10
   sd.description = "（全員／原田ギター／磯前ピアノ）"
+  sd.youtube = 'T3-F8sD71BM'
 end
 SetlistDetail.seed do |sd|
   sd.id = 11
@@ -81,6 +82,7 @@ SetlistDetail.seed do |sd|
   sd.title = "Faraway"
   sd.music_order = 11
   sd.description = "（全員／原田ギター）"
+  sd.youtube = 'cWy7IreoCzc'
 end
 SetlistDetail.seed do |sd|
   sd.id = 12

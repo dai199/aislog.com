@@ -727,27 +727,27 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 105,
+    title: "AIS-Scream 特別公演 ～スタンディングですから （｀・ω・´）ｷﾘﾂ～",
+    event_date: Time.zone.parse('2017-06-03 17:00'),
+    place: "渋谷REX",
+    description: ""
+  },
+  {
+    id: 106,
+    title: "AIS-Break vol.5 ～中坊ですよ!～(データ求む)",
+    event_date: Time.zone.parse('2017-06-02 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 107,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.12 〜衣替えでジャンプ！〜",
+    event_date: Time.zone.parse('2017-05-26 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

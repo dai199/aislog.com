@@ -783,6 +783,90 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
+  {
+    id: 113,
+    title: "アイドルネッサンス結成3周年ライブ シナガワで3周年を感謝するネッサンス!!(OA出演)",
+    event_date: Time.zone.parse('2017-05-04 17:00'),
+    place: "品川インターシティホール",
+    description: ""
+  },
+  {
+    id: 114,
+    title: "SHiNY Days Vol.1",
+    event_date: Time.zone.parse('2017-05-03 12:00'),
+    place: "渋谷TAKE OFF7",
+    description: ""
+  },
+  {
+    id: 115,
+    title: "定期公演 AIS-Break（アイスブレイク）vol.2",
+    event_date: Time.zone.parse('2017-04-28 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: "栗原学校の都合でお休み"
+  },
+  {
+    id: 116,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.10 〜すって！はいて！春の健康診断〜",
+    event_date: Time.zone.parse('2017-04-21 18:30'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 117,
+    title: "TOKYO IDOL LIVE Vol.34 「フジさんのヨコSP・2回目！」 1部",
+    event_date: Time.zone.parse('2017-04-16 12:30'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 118,
+    title: "TOKYO IDOL LIVE Vol.34 「フジさんのヨコSP・2回目！」 2部",
+    event_date: Time.zone.parse('2017-04-16 16:30'),
+    place: "フジさんのヨコ",
+    description: ""
+  },
+  {
+    id: 119,
+    title: "定期公演 AIS-Break（アイスブレイク）vol.1",
+    event_date: Time.zone.parse('2017-04-14 18:30'),
+    place: "AKIBAカルチャーズ劇場",
+    description: "出演メンバー：栗原、朝熊、島崎、徳久、磯前"
+  },
+  {
+    id: 120,
+    title: "アイドル横丁桜まつり !!〜2017〜",
+    event_date: Time.zone.parse('2017-04-09 12:00'),
+    place: "渋谷WWW X",
+    description: ""
+  },
+  {
+    id: 121,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.9 〜新たな旅路〜",
+    event_date: Time.zone.parse('2017-04-07 18:30'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 122,
+    title: "初恋かよ！Vol.3",
+    event_date: Time.zone.parse('2017-04-02 12:00'),
+    place: "品川Jスクエア",
+    description: ""
+  },
+  {
+    id: 123,
+    title: "＠JAM THE WORLD 春のジャムまつり! 2017 (2部)",
+    event_date: Time.zone.parse('2017-04-01 16:30'),
+    place: "新宿ReNY",
+    description: ""
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

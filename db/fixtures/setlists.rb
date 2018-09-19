@@ -860,27 +860,111 @@ Setlist.seed(:id,
     place: "新宿ReNY",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 124,
+    title: "AIS-Scream Vol.8～輝きはじめた星たち～",
+    event_date: Time.zone.parse('2017-03-31 18:30'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 125,
+    title: "ミュージックパーク 〜Girls & Music Theater Vol.6〜",
+    event_date: Time.zone.parse('2017-03-26 15:30'),
+    place: "渋谷duo MUSIC EXCHANGE",
+    description: ""
+  },
+  {
+    id: 126,
+    title: "パンダらの箱 Vol.5",
+    event_date: Time.zone.parse('2017-03-19 12:00'),
+    place: "TSUTAYA O-Crest",
+    description: ""
+  },
+  {
+    id: 127,
+    title: "アイドルジェネレーションvol.45 ～Spring has come!! 2017～",
+    event_date: Time.zone.parse('2017-03-19 17:40'),
+    place: "渋谷WWW X",
+    description: ""
+  },
+  {
+    id: 128,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.7 〜桜前線、上昇中〜",
+    event_date: Time.zone.parse('2017-03-18 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 129,
+    title: "ミュージックパーク ～Girls&Music Theater Vol.5～",
+    event_date: Time.zone.parse('2017-03-04 12:30'),
+    place: "新宿ReNY",
+    description: ""
+  },
+  {
+    id: 130,
+    title: "アイドルのすゝめ二・二五〜新宿MARZをJACKせよ!〜 1部",
+    event_date: Time.zone.parse('2017-02-25 11:30'),
+    place: "新宿MARZ",
+    description: ""
+  },
+  {
+    id: 131,
+    title: "アイドルのすゝめ二・二五〜新宿MARZをJACKせよ!〜 2部",
+    event_date: Time.zone.parse('2017-02-25 16:30'),
+    place: "新宿MARZ",
+    description: ""
+  },
+  {
+    id: 132,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.6 〜バレンタインにくちづけを〜",
+    event_date: Time.zone.parse('2017-02-19 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 133,
+    title: "IDOL NEXT KIND Vol.2",
+    event_date: Time.zone.parse('2017-02-19 17:00'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 134,
+    title: "半蔵門へようこそ",
+    event_date: Time.zone.parse('2017-02-12 11:30'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 135,
+    title: "TOKYO GIRLS MIX",
+    event_date: Time.zone.parse('2017-02-05 11:00'),
+    place: "新宿RUIDO K4",
+    description: ""
+  },
+  {
+    id: 136,
+    title: "メチャフェス♡スぺシャル",
+    event_date: Time.zone.parse('2017-02-05 17:30'),
+    place: "赤坂BLITZ",
+    description: ""
+  },
+  {
+    id: 137,
+    title: "AIS-Scream（アイスクリーム）vol.5〜偏差値30からのAIS対策〜",
+    event_date: Time.zone.parse('2017-02-04 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  {
+    id: 138,
+    title: "KOTO 3rd ANNIVERSARY PARTY",
+    event_date: Time.zone.parse('2017-02-04 17:30'),
+    place: "渋谷WOMB",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

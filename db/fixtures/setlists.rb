@@ -748,6 +748,62 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
+  {
+    id: 108,
+    title: "スマイルネッサンス vol.27 ～宮本茉凛 アイドルネッサンス&AIS合同 生誕企画～",
+    event_date: Time.zone.parse('2017-05-21 14:30'),
+    place: "下北沢GARDEN",
+    description: ""
+  },
+  {
+    id: 109,
+    title: "定期公演 AIS-Break（アイスブレイク）vol.4 〜恋のバカ騒ぎ♡〜",
+    event_date: Time.zone.parse('2017-05-19 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: "出演メンバー：橋本、朝熊、関澤、徳久、磯前"
+  },
+  {
+    id: 110,
+    title: "定期公演 AIS-Break（アイスブレイク）vol.3 〜トゥギャザーしようぜ！！〜",
+    event_date: Time.zone.parse('2017-05-12 19:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: "出演メンバー：橋本、島崎、関澤、徳久、磯前"
+  },
+  {
+    id: 111,
+    title: "大好きな君に会いにいく～TOKYO FM HALL編～",
+    event_date: Time.zone.parse('2017-05-07 17:30'),
+    place: "TOKYO FM HALL",
+    description: ""
+  },
+  {
+    id: 112,
+    title: "定期公演 AIS-Scream（アイスクリーム）vol.11 〜結成1周年！叫びたい衝動〜",
+    event_date: Time.zone.parse('2017-05-05 12:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

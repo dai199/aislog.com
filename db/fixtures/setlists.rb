@@ -935,21 +935,21 @@ Setlist.seed(:id,
     title: "半蔵門へようこそ",
     event_date: Time.zone.parse('2017-02-12 11:30'),
     place: "TOKYO FM HALL",
-    description: ""
+    description: "宮本茉凜欠席"
   },
   {
     id: 135,
     title: "TOKYO GIRLS MIX",
     event_date: Time.zone.parse('2017-02-05 11:00'),
     place: "新宿RUIDO K4",
-    description: ""
+    description: "宮本茉凜欠席"
   },
   {
     id: 136,
     title: "メチャフェス♡スぺシャル",
     event_date: Time.zone.parse('2017-02-05 17:30'),
     place: "赤坂BLITZ",
-    description: ""
+    description: "宮本茉凜欠席"
   },
   {
     id: 137,
@@ -965,13 +965,13 @@ Setlist.seed(:id,
     place: "渋谷WOMB",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 139,
+    title: "DDD～Discovery iDol Depot～",
+    event_date: Time.zone.parse('2017-01-29 00:00'),
+    place: "",
+    description: "はるかインフルエンザ"
+  },
   # {
   #   id: ,
   #   title: "",

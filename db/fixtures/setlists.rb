@@ -968,8 +968,8 @@ Setlist.seed(:id,
   {
     id: 139,
     title: "DDD～Discovery iDol Depot～",
-    event_date: Time.zone.parse('2017-01-29 00:00'),
-    place: "",
+    event_date: Time.zone.parse('2017-01-29 17:00'),
+    place: "WALL&WALL",
     description: "はるかインフルエンザ"
   },
   # {

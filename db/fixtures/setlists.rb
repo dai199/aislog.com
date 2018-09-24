@@ -972,6 +972,20 @@ Setlist.seed(:id,
     place: "WALL&WALL",
     description: "はるかインフルエンザ"
   },
+  {
+    id: 140,
+    title: "NEO Fes!!! presented by Top Yell",
+    event_date: Time.zone.parse('2017-01-15 14:00'),
+    place: "渋谷CLUB QUATTRO",
+    description: ""
+  },
+  {
+    id: 141,
+    title: "AIS-Scream（アイスクリーム）vol.4",
+    event_date: Time.zone.parse('2017-01-15 13:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

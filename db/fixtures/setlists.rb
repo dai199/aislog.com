@@ -986,6 +986,48 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
+  {
+    id: 142,
+    title: "GIRLS VISION",
+    event_date: Time.zone.parse('2017-01-14 12:20'),
+    place: "新宿BLAZE",
+    description: ""
+  },
+  {
+    id: 143,
+    title: "AIS-Carnival(アイスカーニバル)vol.4 ～All Idol Songs～",
+    event_date: Time.zone.parse('2018-09-24 12:00'),
+    place: "白金高輪SELENE b2",
+    description: ""
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

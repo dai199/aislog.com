@@ -1000,20 +1000,20 @@ Setlist.seed(:id,
     place: "白金高輪SELENE b2",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 144,
+    title: "青SHUN学園主催 『Zepp D.C.TOKYOで織り成すオーエーオー!!』",
+    event_date: Time.zone.parse('2017-01-09 12:30'),
+    place: "Zepp Diversity Tokyo",
+    description: ""
+  },
+  {
+    id: 145,
+    title: "アイドルジェネレーションvol.44 ～2017年あけましておめでとうSP!!",
+    event_date: Time.zone.parse('2017-01-09 16:35'),
+    place: "新木場STUDIO COAST",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

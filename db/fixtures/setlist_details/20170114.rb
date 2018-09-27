@@ -41,8 +41,8 @@ SetlistDetail.seed(:id,
   {
     id: 1122,
     setlist_id: 142,
-    music_list_id: ,
-    title: "キャプテンは君だ！4",
+    music_list_id: 4,
+    title: "キャプテンは君だ！",
     music_order: 6,
     description: ""
   },

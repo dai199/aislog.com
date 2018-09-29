@@ -1014,13 +1014,13 @@ Setlist.seed(:id,
     place: "新木場STUDIO COAST",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 146,
+    title: "吉田豪×南波一海の“このアイドルが見たい”2017迎春",
+    event_date: Time.zone.parse('2017-01-04 19:00'),
+    place: "LOFT9 Shibuya",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

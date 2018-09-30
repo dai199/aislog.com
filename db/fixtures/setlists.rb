@@ -1021,13 +1021,13 @@ Setlist.seed(:id,
     place: "LOFT9 Shibuya",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 147,
+    title: "KOTO ループ☆ナイト大忘年会",
+    event_date: Time.zone.parse('2016-12-30 16:30'),
+    place: "代官山LOOP",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

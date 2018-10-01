@@ -1028,6 +1028,62 @@ Setlist.seed(:id,
     place: "代官山LOOP",
     description: ""
   },
+  {
+    id: 148,
+    title: "スマイルネッサンス Vol.20～クリスマスマイルネッサンス2016～",
+    event_date: Time.zone.parse('2016-12-25 12:00'),
+    place: "SME乃木坂ビル",
+    description: ""
+  },
+  {
+    id: 149,
+    title: "LIVE SHOW CASE Vol.4",
+    event_date: Time.zone.parse('2016-12-25 17:00'),
+    place: "TwinBox",
+    description: "宮本茉凜欠席"
+  },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
+  # {
+  #   id: ,
+  #   title: "",
+  #   event_date: Time.zone.parse(''),
+  #   place: "",
+  #   description: ""
+  # },
   # {
   #   id: ,
   #   title: "",

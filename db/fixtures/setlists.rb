@@ -1042,13 +1042,13 @@ Setlist.seed(:id,
     place: "TwinBox",
     description: "宮本茉凜欠席"
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 150,
+    title: "アイドル甲子園 in 新宿BLAZE supported by 生メール",
+    event_date: Time.zone.parse('2016-12-23 12:30'),
+    place: "新宿BLAZE",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

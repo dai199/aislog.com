@@ -1049,13 +1049,13 @@ Setlist.seed(:id,
     place: "新宿BLAZE",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 151,
+    title: "ミュージックパークmini Vol.9",
+    event_date: Time.zone.parse(''),
+    place: "",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

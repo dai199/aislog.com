@@ -1063,13 +1063,13 @@ Setlist.seed(:id,
     place: "新木場STUDIO COAST",
     description: "宮本茉凜欠席"
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 153,
+    title: "AIS-Scream(アイスクリーム）～2位からはじまる物語～vol.3",
+    event_date: Time.zone.parse('2016-12-04 18:00'),
+    place: "AKIBAカルチャーズ劇場",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

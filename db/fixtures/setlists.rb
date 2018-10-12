@@ -1070,13 +1070,13 @@ Setlist.seed(:id,
     place: "AKIBAカルチャーズ劇場",
     description: ""
   },
-  # {
-  #   id: ,
-  #   title: "",
-  #   event_date: Time.zone.parse(''),
-  #   place: "",
-  #   description: ""
-  # },
+  {
+    id: 154,
+    title: "初恋かよ! Vol.2",
+    event_date: Time.zone.parse(''),
+    place: "",
+    description: ""
+  },
   # {
   #   id: ,
   #   title: "",

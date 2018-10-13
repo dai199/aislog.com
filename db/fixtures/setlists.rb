@@ -1073,8 +1073,8 @@ Setlist.seed(:id,
   {
     id: 154,
     title: "初恋かよ! Vol.2",
-    event_date: Time.zone.parse(''),
-    place: "",
+    event_date: Time.zone.parse('2016-12-03 10:30'),
+    place: "渋谷REX",
     description: ""
   },
   # {

@@ -1052,8 +1052,8 @@ Setlist.seed(:id,
   {
     id: 151,
     title: "ミュージックパークmini Vol.9",
-    event_date: Time.zone.parse(''),
-    place: "",
+    event_date: Time.zone.parse('2016-12-17 12:30'),
+    place: "ニッポン放送・イマジンスタジオ",
     description: ""
   },
   # {

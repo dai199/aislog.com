@@ -4,7 +4,7 @@ SetlistDetail.seed(:id,
     setlist_id: 154,
     music_list_id: ,
     title: "Over The Future ",
-    music_order: ,
+    music_order: 1,
     description: ""
   },
   {
@@ -12,7 +12,7 @@ SetlistDetail.seed(:id,
     setlist_id: 154,
     music_list_id: ,
     title: "ドキッ!こういうのが恋なの?",
-    music_order: ,
+    music_order: 2,
     description: ""
   },
   {
@@ -20,7 +20,7 @@ SetlistDetail.seed(:id,
     setlist_id: 154,
     music_list_id: ,
     title: "こいしょ!!!",
-    music_order: ,
+    music_order: 3,
     description: ""
   },
   {
@@ -28,7 +28,7 @@ SetlistDetail.seed(:id,
     setlist_id: 154,
     music_list_id: ,
     title: "MC",
-    music_order: ,
+    music_order: 4,
     description: ""
   },
   {
@@ -36,7 +36,7 @@ SetlistDetail.seed(:id,
     setlist_id: 154,
     music_list_id: ,
     title: "情報",
-    music_order: ,
+    music_order: 5,
     description: ""
   },
   {
@@ -44,7 +44,7 @@ SetlistDetail.seed(:id,
     setlist_id: 154,
     music_list_id: ,
     title: "完璧ぐ〜のね",
-    music_order: ,
+    music_order: 6,
     description: ""
   },
 )

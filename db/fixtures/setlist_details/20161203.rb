@@ -26,7 +26,6 @@ SetlistDetail.seed(:id,
   {
     id: 1135,
     setlist_id: 154,
-    music_list_id: ,
     title: "MC",
     music_order: 4,
     description: ""
